@@ -1,0 +1,83 @@
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; 
+    letter-spacing: -0.8px;
+    text-transform: capitalize;
+}
+
+input {
+    width: 200px;
+    text-align: center;
+    font-family: Gilroy-Bold;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.8px;
+    text-transform: capitalize;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+button{
+    width: 70px;
+    height: 60px;
+    font-family: gilroy-bold;
+    background-color: white;
+    font-style: normal;
+    margin: 30px;
+    font-size: 40px;
+}
+
+#lol {
+    font-size: 20px;
+    position: absolute;
+}
+
+#zero {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    right: 1000px;
+    top: 200px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+#theseus {
+    position: absolute;
+    top: 3000px;
+    right: 550px;
+    width: 200px;
+    height: 200px;
+    border: 2px black;
+}
+
+#theseus:hover {
+   color: crimson;
+   border: crimson;
+   background-color: black;
+   transition: 1s;
+}
+
+#meaningless{
+    color: aliceblue;
+    position: absolute;
+    top: 3500px;
+}
